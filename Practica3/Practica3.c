@@ -24,11 +24,15 @@ char **conteo(char*);
 char **ordenamiento(char**);
 //Crea el primer arreglo de nodos, funciona bien la función pero creo que no necesitamos un arreglo de nodos, sino un arreglo de punteros, lo explico mejor en la linea 51
 void crearArreglo(struct Nodo*, char **);
+//
+void crearArbol(char**);
 
 //Variables globales, como el limite de caracteres en el texto original y el numero de caracteres diferentes de este mismo
 int limite,n_caracteres_dif;
 //Variable global de los numeros ordenados para que pueda ser utilizada por todos sin necesidad que la este mandando como parametro 
 int *numOrdenados; 
+//
+struct Nodo *arreglo = NULL;
 
 void main(int argc, char **argv[])
 {
@@ -55,10 +59,10 @@ void main(int argc, char **argv[])
 	for (int i = 0; i < n_caracteres_dif; ++i) printf("%d ",*(numOrdenados + i)); printf("\n");
 	for (int i = 0; i < n_caracteres_dif; ++i) printf("%c ",*(*(matriz)+i)); printf("\n\n");
 
-	//Creamos el arreglo de estructuras, sus apuntadores a hijos estan vacios, por que es el primer arreglo
-	struct Nodo *arreglo;
+	//Creamos el arreglo de estructuras, sus apuntadores a hijos estan vacios, por que es el primer arreglo	
 	crearArreglo(arreglo, matriz);
 
+	crearArbol(matriz);
 	//A PARTIR DE AQUI NO SE COMO PASAR A CÓDIGO EL ALGORITMO
 	//Estoy utilizando apuntadores simples, pero creo que tendria que utilizar dobles, ya que es un arreglo de apuntadores a nodos
 	//No estoy muy seguro y esa es mi principal pregunta: *¿CÓMO HAGO EL ARREGLO DE ARBOLES?*
@@ -66,7 +70,55 @@ void main(int argc, char **argv[])
 	
 }
 
-void crearArreglo(struct Nodo *arreglo, char **matriz){
+void crearArbol(char **matriz)
+{	
+	struct Nodo *izq = NULL;
+	izq = (struct Nodo*) malloc(sizeof(struct Nodo));
+	struct Nodo *der = NULL; 
+	der = (struct Nodo*) malloc(sizeof(struct Nodo));
+	struct Nodo *raiz = NULL; 
+	raiz = (struct Nodo*) malloc(sizeof(struct Nodo));
+	int i = 0;
+
+	izq -> caracter = *(*(matriz)+0);
+	izq -> frecuencia = *(numOrdenados + 0);
+
+	der -> caracter = *(*(matriz)+1);
+	der -> frecuencia = *(numOrdenados + 1);
+
+	raiz -> frecuencia = izq -> frecuencia + der -> frecuencia;
+	raiz -> izq = izq;
+	raiz -> der = der;
+
+	*(*(matriz) + 0) = '\0'; *(*(matriz) + 1) = '\0';
+	*(numOrdenados + 0) = 0; *(numOrdenados + 1) = 0;
+
+	for (i = 0; *(numOrdenados + i) < raiz ->frecuencia; ++i)
+	{
+		*(*(matriz) + i) = *(*(matriz) + i + 2);
+		*(numOrdenados + i) = *(numOrdenados + i +2);
+	}
+	
+	for (i = 0; *(numOrdenados + i) < raiz -> frecuencia; ++i);
+
+	int aux = n_caracteres_dif;
+	for(; aux > i; --aux)		
+	{
+		*(*(matriz) + aux) = *(*(matriz) + aux - 1);
+		*(numOrdenados + aux) = *(numOrdenados + aux - 1);
+	}
+
+	*(*(matriz) + i) = '*';
+	*(numOrdenados + aux) = 99; 
+
+	for(i = 0; i <= n_caracteres_dif; ++i)		
+		printf("%c:%d\n",*(*(matriz) + i),*(numOrdenados + i));
+
+	printf("\n");
+}
+
+void crearArreglo(struct Nodo *arreglo, char **matriz)
+{
 	//Creo el arreglo, el tamaño lo determina la cantidad de caracteres diferentes
 	arreglo = (struct Nodo*) malloc(sizeof(struct Nodo)*n_caracteres_dif);
 
@@ -79,7 +131,7 @@ void crearArreglo(struct Nodo *arreglo, char **matriz){
 	}
 
 	//Lo imprimo para comprobar que no ha cambiado nada
-	for (int i = 0; i < n_caracteres_dif; ++i) printf("%c: %d  ",arreglo[i].caracter,arreglo[i].frecuencia); printf("\n");		
+	//for (int i = 0; i < n_caracteres_dif; ++i) printf("%c: %d  ",arreglo[i].caracter,arreglo[i].frecuencia); printf("\n");		
 }
 
 char *leerArchivo(char *archivon){	

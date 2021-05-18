@@ -7,6 +7,7 @@
 #include <fcntl.h>
 #include <math.h>
 
+//Estructura del nodo del arbol
 struct Nodo
 {
 	char caracter;
@@ -15,12 +16,18 @@ struct Nodo
 	struct Nodo *der;
 };
 
+//Funcion que lee el archivo de entrada y lo convierte a un arreglo de caracteres
 char *leerArchivo(char *);
+//Funcion que cuenta la cantidad de caracteres repetidos hay en el arreglo, Ejemplo: "OTORRINO", O:3,T:1,R:2,I:1,N:1
 char **conteo(char*);
+//Funcion que ordena de menor a mayor la lista de arriba, ejemplo: T:1,I:1,N:1,R:2,O:3
 char **ordenamiento(char**);
+//Crea el primer arreglo de nodos, funciona bien la función pero creo que no necesitamos un arreglo de nodos, sino un arreglo de punteros, lo explico mejor en la linea 51
 void crearArreglo(struct Nodo*, char **);
 
+//Variables globales, como el limite de caracteres en el texto original y el numero de caracteres diferentes de este mismo
 int limite,n_caracteres_dif;
+//Variable global de los numeros ordenados para que pueda ser utilizada por todos sin necesidad que la este mandando como parametro 
 int *numOrdenados; 
 
 void main(int argc, char **argv[])
@@ -60,14 +67,18 @@ void main(int argc, char **argv[])
 }
 
 void crearArreglo(struct Nodo *arreglo, char **matriz){
+	//Creo el arreglo, el tamaño lo determina la cantidad de caracteres diferentes
 	arreglo = (struct Nodo*) malloc(sizeof(struct Nodo)*n_caracteres_dif);
 
+	//Le asigno los valores correspondientes a cada nodo
 	for (int i = 0; i < n_caracteres_dif; ++i)
 	{
 		arreglo[i].caracter = *(*(matriz)+i);
 		arreglo[i].frecuencia = *(numOrdenados + i);
 		arreglo[i].izq = NULL; arreglo[i].der = NULL;
 	}
+
+	//Lo imprimo para comprobar que no ha cambiado nada
 	for (int i = 0; i < n_caracteres_dif; ++i) printf("%c: %d  ",arreglo[i].caracter,arreglo[i].frecuencia); printf("\n");		
 }
 

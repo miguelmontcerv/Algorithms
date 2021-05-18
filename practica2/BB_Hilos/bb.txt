@@ -1,0 +1,40 @@
+
+Busqueda Binaria con 1000000 numeros, buscando el 322486
+
+Tiempo: 0.0004150867
+------------------------------------------------------
+
+Busqueda Binaria con 1000000 numeros, buscando el 14700764
+
+Tiempo: 0.0003950596
+------------------------------------------------------
+
+Busqueda Binaria con 1000000 numeros, buscando el 3128036
+
+Tiempo: 0.0003440380
+------------------------------------------------------
+
+Busqueda Binaria con 1000000 numeros, buscando el 6337399
+
+Tiempo: 0.0004310608
+------------------------------------------------------
+
+Busqueda Binaria con 1000000 numeros, buscando el 61396
+
+Tiempo: 0.0003800392
+------------------------------------------------------
+
+Busqueda Binaria con 1000000 numeros, buscando el 10393545
+
+Tiempo: 0.0003809929
+------------------------------------------------------
+
+Busqueda Binaria con 1000000 numeros, buscando el 2147445644
+
+Tiempo: 0.0004429817
+------------------------------------------------------
+
+Busqueda Binaria con 1000000 numeros, buscando el 1295390003
+
+Tiempo: 0.0004160404
+------------------------------------------------------

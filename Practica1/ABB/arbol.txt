@@ -1,0 +1,260 @@
+	Arbol Binario de Busqueda con 100 numeros
+
+real (Tiempo total)  0.0349509716 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+real (Tiempo total)  3.4950971603e-02 s
+user (Tiempo de procesamiento en CPU) 0.0000000000e+00 s
+sys (Tiempo en acciónes de E/S)  0.0000000000e+00 s
+CPU/Wall   0.0000000000 % 
+
+##################################################################################################
+	Arbol Binario de Busqueda con 1000 numeros
+
+real (Tiempo total)  0.0012490749 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+real (Tiempo total)  1.2490749359e-03 s
+user (Tiempo de procesamiento en CPU) 0.0000000000e+00 s
+sys (Tiempo en acciónes de E/S)  0.0000000000e+00 s
+CPU/Wall   0.0000000000 % 
+
+##################################################################################################
+	Arbol Binario de Busqueda con 5000 numeros
+
+real (Tiempo total)  0.0034070015 s
+user (Tiempo de procesamiento en CPU) 0.0156250000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   458.6144156753 % 
+
+real (Tiempo total)  3.4070014954e-03 s
+user (Tiempo de procesamiento en CPU) 1.5625000000e-02 s
+sys (Tiempo en acciónes de E/S)  0.0000000000e+00 s
+CPU/Wall   458.6144156753 % 
+
+##################################################################################################
+	Arbol Binario de Busqueda con 10000 numeros
+
+real (Tiempo total)  0.0059971809 s
+user (Tiempo de procesamiento en CPU) 0.0156250000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   260.5390792717 % 
+
+real (Tiempo total)  5.9971809387e-03 s
+user (Tiempo de procesamiento en CPU) 1.5625000000e-02 s
+sys (Tiempo en acciónes de E/S)  0.0000000000e+00 s
+CPU/Wall   260.5390792717 % 
+
+##################################################################################################
+	Arbol Binario de Busqueda con 50000 numeros
+
+real (Tiempo total)  0.0357811451 s
+user (Tiempo de procesamiento en CPU) 0.0468750000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   131.0047508945 % 
+
+real (Tiempo total)  3.5781145096e-02 s
+user (Tiempo de procesamiento en CPU) 4.6875000000e-02 s
+sys (Tiempo en acciónes de E/S)  0.0000000000e+00 s
+CPU/Wall   131.0047508945 % 
+
+##################################################################################################
+	Arbol Binario de Busqueda con 100000 numeros
+
+real (Tiempo total)  0.0789380074 s
+user (Tiempo de procesamiento en CPU) 0.0312500000 s
+sys (Tiempo en acciónes de E/S)  0.0312500000 s
+CPU/Wall   79.1760548491 % 
+
+real (Tiempo total)  7.8938007355e-02 s
+user (Tiempo de procesamiento en CPU) 3.1250000000e-02 s
+sys (Tiempo en acciónes de E/S)  3.1250000000e-02 s
+CPU/Wall   79.1760548491 % 
+
+##################################################################################################
+	Arbol Binario de Busqueda con 200000 numeros
+
+real (Tiempo total)  0.1832001209 s
+user (Tiempo de procesamiento en CPU) 0.1562500000 s
+sys (Tiempo en acciónes de E/S)  0.0312500000 s
+CPU/Wall   102.3470940152 % 
+
+real (Tiempo total)  1.8320012093e-01 s
+user (Tiempo de procesamiento en CPU) 1.5625000000e-01 s
+sys (Tiempo en acciónes de E/S)  3.1250000000e-02 s
+CPU/Wall   102.3470940152 % 
+
+##################################################################################################
+	Arbol Binario de Busqueda con 400000 numeros
+
+real (Tiempo total)  0.4252240658 s
+user (Tiempo de procesamiento en CPU) 0.3281250000 s
+sys (Tiempo en acciónes de E/S)  0.0781250000 s
+CPU/Wall   95.5378664315 % 
+
+real (Tiempo total)  4.2522406578e-01 s
+user (Tiempo de procesamiento en CPU) 3.2812500000e-01 s
+sys (Tiempo en acciónes de E/S)  7.8125000000e-02 s
+CPU/Wall   95.5378664315 % 
+
+##################################################################################################
+	Arbol Binario de Busqueda con 600000 numeros
+
+real (Tiempo total)  0.6873679161 s
+user (Tiempo de procesamiento en CPU) 0.5312500000 s
+sys (Tiempo en acciónes de E/S)  0.1562500000 s
+CPU/Wall   100.0192158944 % 
+
+real (Tiempo total)  6.8736791611e-01 s
+user (Tiempo de procesamiento en CPU) 5.3125000000e-01 s
+sys (Tiempo en acciónes de E/S)  1.5625000000e-01 s
+CPU/Wall   100.0192158944 % 
+
+##################################################################################################
+	Arbol Binario de Busqueda con 800000 numeros
+
+real (Tiempo total)  1.0389800072 s
+user (Tiempo de procesamiento en CPU) 0.8125000000 s
+sys (Tiempo en acciónes de E/S)  0.2187500000 s
+CPU/Wall   99.2560003929 % 
+
+real (Tiempo total)  1.0389800072e+00 s
+user (Tiempo de procesamiento en CPU) 8.1250000000e-01 s
+sys (Tiempo en acciónes de E/S)  2.1875000000e-01 s
+CPU/Wall   99.2560003929 % 
+
+##################################################################################################
+	Arbol Binario de Busqueda con 1000000 numeros
+
+real (Tiempo total)  1.4828400612 s
+user (Tiempo de procesamiento en CPU) 1.2343750000 s
+sys (Tiempo en acciónes de E/S)  0.1562500000 s
+CPU/Wall   93.7811862789 % 
+
+real (Tiempo total)  1.4828400612e+00 s
+user (Tiempo de procesamiento en CPU) 1.2343750000e+00 s
+sys (Tiempo en acciónes de E/S)  1.5625000000e-01 s
+CPU/Wall   93.7811862789 % 
+
+##################################################################################################
+	Arbol Binario de Busqueda con 2000000 numeros
+
+real (Tiempo total)  3.9166960716 s
+user (Tiempo de procesamiento en CPU) 2.8906250000 s
+sys (Tiempo en acciónes de E/S)  0.5156250000 s
+CPU/Wall   86.9674321854 % 
+
+real (Tiempo total)  3.9166960716e+00 s
+user (Tiempo de procesamiento en CPU) 2.8906250000e+00 s
+sys (Tiempo en acciónes de E/S)  5.1562500000e-01 s
+CPU/Wall   86.9674321854 % 
+
+##################################################################################################
+	Arbol Binario de Busqueda con 3000000 numeros
+
+real (Tiempo total)  5.2200081348 s
+user (Tiempo de procesamiento en CPU) 4.2031250000 s
+sys (Tiempo en acciónes de E/S)  0.9062500000 s
+CPU/Wall   97.8805945894 % 
+
+real (Tiempo total)  5.2200081348e+00 s
+user (Tiempo de procesamiento en CPU) 4.2031250000e+00 s
+sys (Tiempo en acciónes de E/S)  9.0625000000e-01 s
+CPU/Wall   97.8805945894 % 
+
+##################################################################################################
+	Arbol Binario de Busqueda con 4000000 numeros
+
+real (Tiempo total)  10.6146669388 s
+user (Tiempo de procesamiento en CPU) 7.5625000000 s
+sys (Tiempo en acciónes de E/S)  1.5000000000 s
+CPU/Wall   85.3771489230 % 
+
+real (Tiempo total)  1.0614666939e+01 s
+user (Tiempo de procesamiento en CPU) 7.5625000000e+00 s
+sys (Tiempo en acciónes de E/S)  1.5000000000e+00 s
+CPU/Wall   85.3771489230 % 
+
+##################################################################################################
+	Arbol Binario de Busqueda con 5000000 numeros
+
+real (Tiempo total)  9.1944439411 s
+user (Tiempo de procesamiento en CPU) 8.0625000000 s
+sys (Tiempo en acciónes de E/S)  1.0156250000 s
+CPU/Wall   98.7348996648 % 
+
+real (Tiempo total)  9.1944439411e+00 s
+user (Tiempo de procesamiento en CPU) 8.0625000000e+00 s
+sys (Tiempo en acciónes de E/S)  1.0156250000e+00 s
+CPU/Wall   98.7348996648 % 
+
+##################################################################################################
+	Arbol Binario de Busqueda con 6000000 numeros
+
+real (Tiempo total)  11.9090640545 s
+user (Tiempo de procesamiento en CPU) 9.8437500000 s
+sys (Tiempo en acciónes de E/S)  1.5625000000 s
+CPU/Wall   95.7778877317 % 
+
+real (Tiempo total)  1.1909064054e+01 s
+user (Tiempo de procesamiento en CPU) 9.8437500000e+00 s
+sys (Tiempo en acciónes de E/S)  1.5625000000e+00 s
+CPU/Wall   95.7778877317 % 
+
+##################################################################################################
+	Arbol Binario de Busqueda con 7000000 numeros
+
+real (Tiempo total)  12.9024028778 s
+user (Tiempo de procesamiento en CPU) 11.3281250000 s
+sys (Tiempo en acciónes de E/S)  1.4687500000 s
+CPU/Wall   99.1821067842 % 
+
+real (Tiempo total)  1.2902402878e+01 s
+user (Tiempo de procesamiento en CPU) 1.1328125000e+01 s
+sys (Tiempo en acciónes de E/S)  1.4687500000e+00 s
+CPU/Wall   99.1821067842 % 
+
+##################################################################################################
+	Arbol Binario de Busqueda con 8000000 numeros
+
+real (Tiempo total)  20.9444580078 s
+user (Tiempo de procesamiento en CPU) 16.0000000000 s
+sys (Tiempo en acciónes de E/S)  2.8750000000 s
+CPU/Wall   90.1193050351 % 
+
+real (Tiempo total)  2.0944458008e+01 s
+user (Tiempo de procesamiento en CPU) 1.6000000000e+01 s
+sys (Tiempo en acciónes de E/S)  2.8750000000e+00 s
+CPU/Wall   90.1193050351 % 
+
+##################################################################################################
+	Arbol Binario de Busqueda con 9000000 numeros
+
+real (Tiempo total)  19.3757908344 s
+user (Tiempo de procesamiento en CPU) 16.8750000000 s
+sys (Tiempo en acciónes de E/S)  2.1718750000 s
+CPU/Wall   98.3024391766 % 
+
+real (Tiempo total)  1.9375790834e+01 s
+user (Tiempo de procesamiento en CPU) 1.6875000000e+01 s
+sys (Tiempo en acciónes de E/S)  2.1718750000e+00 s
+CPU/Wall   98.3024391766 % 
+
+##################################################################################################
+	Arbol Binario de Busqueda con 10000000 numeros
+
+real (Tiempo total)  21.9599649906 s
+user (Tiempo de procesamiento en CPU) 18.8750000000 s
+sys (Tiempo en acciónes de E/S)  2.2968750000 s
+CPU/Wall   96.4112420445 % 
+
+real (Tiempo total)  2.1959964991e+01 s
+user (Tiempo de procesamiento en CPU) 1.8875000000e+01 s
+sys (Tiempo en acciónes de E/S)  2.2968750000e+00 s
+CPU/Wall   96.4112420445 % 
+
+##################################################################################################

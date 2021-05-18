@@ -1,0 +1,96 @@
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000028610
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000028610
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000030994
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000038147
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000021458
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000030994
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000019073
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000028610
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000019073
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000030994
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000028610
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000019073
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000019073
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000040531
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000030994
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000040531
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000019073
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000019073
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000030994
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000028610
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000028610
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000019073
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000019073
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000030994
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000030994
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000030994
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000040531
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000028610
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000040531
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000040531
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000040531
+
+-1 Elemento 119847072 isnt in array
+Tiempo: 0.0000019073

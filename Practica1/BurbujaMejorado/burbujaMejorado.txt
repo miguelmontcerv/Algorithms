@@ -1,0 +1,156 @@
+Tamanio de N = 100
+real (Tiempo total)  0.0000319481 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+
+real (Tiempo total)  3.1948089600e-05 s
+user (Tiempo de procesamiento en CPU) 0.0000000000e+00 s
+sys (Tiempo en acciónes de E/S)  0.0000000000e+00 s
+CPU/Wall   0.0000000000 % 
+
+############################## 
+Tamanio de N = 1000
+real (Tiempo total)  0.0022759438 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+
+real (Tiempo total)  2.2759437561e-03 s
+user (Tiempo de procesamiento en CPU) 0.0000000000e+00 s
+sys (Tiempo en acciónes de E/S)  0.0000000000e+00 s
+CPU/Wall   0.0000000000 % 
+
+############################## 
+Tamanio de N = 5000
+real (Tiempo total)  0.0669689178 s
+user (Tiempo de procesamiento en CPU) 0.0625000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   93.3268776167 % 
+
+
+real (Tiempo total)  6.6968917847e-02 s
+user (Tiempo de procesamiento en CPU) 6.2500000000e-02 s
+sys (Tiempo en acciónes de E/S)  0.0000000000e+00 s
+CPU/Wall   93.3268776167 % 
+
+############################## 
+Tamanio de N = 10000
+real (Tiempo total)  0.2984750271 s
+user (Tiempo de procesamiento en CPU) 0.2968750000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   99.4639326781 % 
+
+
+real (Tiempo total)  2.9847502708e-01 s
+user (Tiempo de procesamiento en CPU) 2.9687500000e-01 s
+sys (Tiempo en acciónes de E/S)  0.0000000000e+00 s
+CPU/Wall   99.4639326781 % 
+
+############################## 
+Tamanio de N = 50000
+real (Tiempo total)  8.3967478275 s
+user (Tiempo de procesamiento en CPU) 8.3593750000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   99.5549130652 % 
+
+
+real (Tiempo total)  8.3967478275e+00 s
+user (Tiempo de procesamiento en CPU) 8.3593750000e+00 s
+sys (Tiempo en acciónes de E/S)  0.0000000000e+00 s
+CPU/Wall   99.5549130652 % 
+
+############################## 
+Tamanio de N = 100000
+real (Tiempo total)  42.6293148994 s
+user (Tiempo de procesamiento en CPU) 37.1406250000 s
+sys (Tiempo en acciónes de E/S)  0.1250000000 s
+CPU/Wall   87.4178369695 % 
+
+
+real (Tiempo total)  4.2629314899e+01 s
+user (Tiempo de procesamiento en CPU) 3.7140625000e+01 s
+sys (Tiempo en acciónes de E/S)  1.2500000000e-01 s
+CPU/Wall   87.4178369695 % 
+
+############################## 
+Tamanio de N = 200000
+real (Tiempo total)  156.5175650120 s
+user (Tiempo de procesamiento en CPU) 144.3593750000 s
+sys (Tiempo en acciónes de E/S)  0.1875000000 s
+CPU/Wall   92.3518551984 % 
+
+
+real (Tiempo total)  1.5651756501e+02 s
+user (Tiempo de procesamiento en CPU) 1.4435937500e+02 s
+sys (Tiempo en acciónes de E/S)  1.8750000000e-01 s
+CPU/Wall   92.3518551984 % 
+
+############################## 
+Tamanio de N = 400000
+real (Tiempo total)  590.7532880306 s
+user (Tiempo de procesamiento en CPU) 564.6562500000 s
+sys (Tiempo en acciónes de E/S)  0.4843750000 s
+CPU/Wall   95.6644061828 % 
+
+
+real (Tiempo total)  5.9075328803e+02 s
+user (Tiempo de procesamiento en CPU) 5.6465625000e+02 s
+sys (Tiempo en acciónes de E/S)  4.8437500000e-01 s
+CPU/Wall   95.6644061828 % 
+
+############################## 
+Tamanio de N = 600000
+real (Tiempo total)  1323.6235458851 s
+user (Tiempo de procesamiento en CPU) 1264.2656250000 s
+sys (Tiempo en acciónes de E/S)  1.0000000000 s
+CPU/Wall   95.5910484468 % 
+
+
+real (Tiempo total)  1.3236235459e+03 s
+user (Tiempo de procesamiento en CPU) 1.2642656250e+03 s
+sys (Tiempo en acciónes de E/S)  1.0000000000e+00 s
+CPU/Wall   95.5910484468 % 
+
+############################## 
+Tamanio de N = 800000
+real (Tiempo total)  2132.0227990150 s
+user (Tiempo de procesamiento en CPU) 2130.7968750000 s
+sys (Tiempo en acciónes de E/S)  0.0156250000 s
+CPU/Wall   99.9432323606 % 
+
+
+real (Tiempo total)  2.1320227990e+03 s
+user (Tiempo de procesamiento en CPU) 2.1307968750e+03 s
+sys (Tiempo en acciónes de E/S)  1.5625000000e-02 s
+CPU/Wall   99.9432323606 % 
+
+############################## 
+Tamanio de N = 1000000
+real (Tiempo total)  3361.5992391109 s
+user (Tiempo de procesamiento en CPU) 3349.8750000000 s
+sys (Tiempo en acciónes de E/S)  0.1718750000 s
+CPU/Wall   99.6563432078 % 
+
+
+real (Tiempo total)  3.3615992391e+03 s
+user (Tiempo de procesamiento en CPU) 3.3498750000e+03 s
+sys (Tiempo en acciónes de E/S)  1.7187500000e-01 s
+CPU/Wall   99.6563432078 % 
+
+############################## 
+Tamanio de N = 2000000
+real (Tiempo total)  13427.7757070065 s
+user (Tiempo de procesamiento en CPU) 13417.8281250000 s
+sys (Tiempo en acciónes de E/S)  0.2031250000 s
+CPU/Wall   99.9274305945 % 
+
+
+real (Tiempo total)  1.3427775707e+04 s
+user (Tiempo de procesamiento en CPU) 1.3417828125e+04 s
+sys (Tiempo en acciónes de E/S)  2.0312500000e-01 s
+CPU/Wall   99.9274305945 % 
+
+############################## 

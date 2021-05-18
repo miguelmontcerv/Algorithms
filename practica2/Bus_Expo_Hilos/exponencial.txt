@@ -1,0 +1,70 @@
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0006010532
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0002720356
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0002961159
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0003311634
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0003240108
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0022649765
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0003781319
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0003919601
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0002899170
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0006060600
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0002639294
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0003039837
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0002670288
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0003409386
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0002348423
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0003209114
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0002779961
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0005390644
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0002870560
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0002539158
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0006709099
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0002310276
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0002641678
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0002579689
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0002748966
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0002388954
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0003058910
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0003149509
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0002539158
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0002799034
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0004940033
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0002591610
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0003061295
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0002970695
+intervalos [0,0]  [0, 1]Element 10406 is at 0 index 
+Tiempo: 0.0005719662

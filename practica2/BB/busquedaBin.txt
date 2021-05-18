@@ -1,0 +1,65 @@
+
+Busqueda Binaria con 1000000 numeros, buscando el 322486: (-1) 20 vueltas
+
+Tiempo: 0.0000028610
+------------------------------------------------------
+
+Busqueda Binaria con 1000000 numeros, buscando el 14700764: (-1) 20 vueltas
+
+Tiempo: 0.0000030994
+------------------------------------------------------
+
+Busqueda Binaria con 1000000 numeros, buscando el 3128036: (-1) 20 vueltas
+
+Tiempo: 0.0000028610
+------------------------------------------------------
+
+Busqueda Binaria con 1000000 numeros, buscando el 6337399: (-1) 20 vueltas
+
+Tiempo: 0.0000050068
+------------------------------------------------------
+
+Busqueda Binaria con 1000000 numeros, buscando el 61396: (-1) 20 vueltas
+
+Tiempo: 0.0000028610
+------------------------------------------------------
+
+Busqueda Binaria con 1000000 numeros, buscando el 10393545: (-1) 20 vueltas
+
+Tiempo: 0.0000071526
+------------------------------------------------------
+
+Busqueda Binaria con 1000000 numeros, buscando el 2147445644: (-1) 20 vueltas
+
+Tiempo: 0.0000028610
+------------------------------------------------------
+
+Busqueda Binaria con 1000000 numeros, buscando el 1295390003: (-1) 20 vueltas
+
+Tiempo: 0.0000040531
+------------------------------------------------------
+
+Busqueda Binaria con 1000000 numeros, buscando el 450057883: (-1) 20 vueltas
+
+Tiempo: 0.0000030994
+------------------------------------------------------
+
+Busqueda Binaria con 1000000 numeros, buscando el 187645041: (-1) 20 vueltas
+
+Tiempo: 0.0000040531
+------------------------------------------------------
+
+Busqueda Binaria con 1000000 numeros, buscando el 1980098116: (-1) 20 vueltas
+
+Tiempo: 0.0000040531
+------------------------------------------------------
+
+Busqueda Binaria con 1000000 numeros, buscando el 152503: (-1) 20 vueltas
+
+Tiempo: 0.0000030994
+------------------------------------------------------
+
+Busqueda Binaria con 1000000 numeros, buscando el 5000: (-1) 20 vueltas
+
+Tiempo: 0.0000028610
+------------------------------------------------------

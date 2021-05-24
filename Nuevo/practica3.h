@@ -130,14 +130,13 @@ void uswtime(double *usertime, double *systime, double *walltime)
 	*walltime = (double) tp.tv_sec + 1.0e-6 * tp.tv_usec; 
 }
 
-void calculaTiempos(double *usrtime1, double *systime1, double *walltime1,
-					double *usrtime2, double *systime2, double *walltime2,
-					double *real, double *user, double *sys, double *cpuwall)
-{
-	*real = *walltime2 - *walltime1;
-	*user = *usrtime2 - *usrtime1;
-	*sys = *systime2 - *systime1;
-	*cpuwall = ((*user + *sys) * 100.0) / *real;
+void ImprimirTiempos(double utime0,double stime0,double wtime0,double utime1,double stime1,double wtime1){
+	printf("\n");
+	/*printf("real (Tiempo total)  %.10f s\n",  wtime1 - wtime0);
+	printf("user (Tiempo de procesamiento en CPU) %.10f s\n",  utime1 - utime0);
+	printf("sys (Tiempo en acciónes de E/S)  %.10f s\n",  stime1 - stime0);
+	printf("CPU/Wall   %.10f %% \n",100.0 * (utime1 - utime0 + stime1 - stime0) / (wtime1 - wtime0));*/
+	printf("\n(%.3f s) ", wtime1 - wtime0);
 }
 
 // Definimos el tamaño del buffer

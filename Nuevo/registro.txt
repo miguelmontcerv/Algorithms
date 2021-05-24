@@ -1,12 +1,30 @@
 
-Se ha comprimido texto.txt con exito, paso de 5721 bytes a 3186 bytes, ahora se encuentra en comprimido.txt
 
-Se ha comprimido imagen.bmp con exito, paso de 6402254 bytes a 6362780 bytes, ahora se encuentra en comprimido2.txt
+(0.0043289661 s) Se ha comprimido texto.txt con exito, paso de 5721 bytes a 3186 bytes, ahora se encuentra en comprimido.txt (44.31). 
 
-Se ha comprimido imagen2.bmp con exito, paso de 1363714 bytes a 232731 bytes, ahora se encuentra en comprimido3.txt
 
-Se ha escomprimido el archivo comprimido.txt con exito tomando en cuenta salida.txt
+(5.7967631817 s) Se ha comprimido cancion.mp3 con exito, paso de 5012205 bytes a 4965424 bytes, ahora se encuentra en comprimido2.txt (0.93). 
 
-Se ha escomprimido el archivo comprimido2.txt con exito tomando en cuenta salida2.txt
 
-Se ha escomprimido el archivo comprimido3.txt con exito tomando en cuenta salida3.txt
+(0.5196928978 s) Se ha comprimido imagen.bmp con exito, paso de 1363714 bytes a 232731 bytes, ahora se encuentra en comprimido3.txt (82.93). 
+
+
+(0.6898670197 s) Se ha comprimido imagen2.jpg con exito, paso de 638393 bytes a 637589 bytes, ahora se encuentra en comprimido4.txt (0.13). 
+
+
+(74.3314821720 s) Se ha comprimido pdf.pdf con exito, paso de 66666104 bytes a 65505404 bytes, ahora se encuentra en comprimido5.txt (1.74). 
+
+
+(0.0030229092 s) Se ha escomprimido el archivo comprimido.txt con exito tomando en cuenta salida.txt
+
+
+(0.8088700771 s) Se ha escomprimido el archivo comprimido2.txt con exito tomando en cuenta salida2.txt
+
+
+(0.0417289734 s) Se ha escomprimido el archivo comprimido3.txt con exito tomando en cuenta salida3.txt
+
+
+(0.1361949444 s) Se ha escomprimido el archivo comprimido4.txt con exito tomando en cuenta salida4.txt
+
+
+(9.3086879253 s) Se ha escomprimido el archivo comprimido5.txt con exito tomando en cuenta salida5.txt

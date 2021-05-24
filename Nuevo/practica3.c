@@ -7,13 +7,13 @@ int main(int argc, char** argv) {
 	char * salida;
 	char * codificado;
     int leidos;
-	long leidosTotal = 0;
-	long bytesTotal = 0;
+	float leidosTotal = 0;
+	float bytesTotal = 0;
 	int bitsEscritosReal = 0;
 	Frecuencia * v;
 	
 
-	if(argv[1][0] == '-' && argv[1][1] == 'd') // Decompresión
+	if(argv[1][0] == '-' && argv[1][1] == '1') // Decompresión
 	{
 		// Iniciamos la medición de tiempos
 		uswtime(&usrtime11, &systime11, &walltime11);
@@ -85,17 +85,16 @@ int main(int argc, char** argv) {
 		// Concluimos la medición de tiempos
 		uswtime(&usrtime21, &systime21, &walltime21);
 		
-		calculaTiempos(&usrtime11, &systime11, &walltime11,
-							&usrtime21, &systime21, &walltime21,
-							&real, &user, &sys, &cpuwall);
+		ImprimirTiempos(usrtime11, systime11, walltime11,usrtime21, systime21, walltime21);;
 		
 		// Imprimimos información 
-		printf("\nSe ha escomprimido el archivo %s con exito tomando en cuenta %s\n",argv[3], argv[2]);
+		printf("Se ha escomprimido el archivo %s con exito tomando en cuenta %s\n",argv[3], argv[2]);
 		
 	}
 
 	else {
-		// Iniciamos la medición de tiempos		
+		// Iniciamos la medición de tiempos
+		uswtime(&usrtime11, &systime11, &walltime11);		
 		ListaFrecuencia f;
 		f.inicio = NULL;
 			
@@ -150,7 +149,7 @@ int main(int argc, char** argv) {
 		fclose(entrada); // Cerramos la entrada
 		
 		bytesTotal = (bitsEscritosReal / 8); // Determinamos cuantos bytes ocupará el nuevo archivo
-		int padding = bytesTotal % 8;
+		int padding = ((int)(bytesTotal)) % 8;
 		if(padding > 0)
 			bytesTotal++;
 		
@@ -165,15 +164,15 @@ int main(int argc, char** argv) {
 		// Concluimos la medición de tiempos
 		uswtime(&usrtime21, &systime21, &walltime21);
 		
-		calculaTiempos(&usrtime11, &systime11, &walltime11,
-							&usrtime21, &systime21, &walltime21,
-							&real, &user, &sys, &cpuwall);
+		ImprimirTiempos(usrtime11, systime11, walltime11,usrtime21, systime21, walltime21);
 		
 		// Impresión de información relevante de la compresión [Académico]
+		float resta = (leidosTotal - bytesTotal)*100;
+		float porciento = resta/leidosTotal;
 		if(resultadoEscritura >= 0)
-			printf("\nSe ha comprimido %s con exito, paso de %ld bytes a %ld bytes, ahora se encuentra en %s\n",argv[1],leidosTotal,bytesTotal, argv[2]);
+			printf("Se ha comprimido %s con exito, paso de %.0f bytes a %.0f bytes, ahora se encuentra en %s (%.2f). \n",argv[1],leidosTotal,bytesTotal, argv[2],porciento);
 		else
-			printf("\nNO se ha comprimido %s con exito, paso de %ld bytes a %ld bytes, ahora se encuentra en %s\n",argv[1],leidosTotal,bytesTotal, argv[2]);
+			printf("NO se ha comprimido %s con exito, paso de %.0f bytes a %.0f bytes, ahora se encuentra en %s\n",argv[1],leidosTotal,bytesTotal, argv[2]);
 	}
 	
 	

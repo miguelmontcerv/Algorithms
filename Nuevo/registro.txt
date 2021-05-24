@@ -1,0 +1,12 @@
+
+Se ha comprimido texto.txt con exito, paso de 5721 bytes a 3186 bytes, ahora se encuentra en comprimido.txt
+
+Se ha comprimido imagen.bmp con exito, paso de 6402254 bytes a 6362780 bytes, ahora se encuentra en comprimido2.txt
+
+Se ha comprimido imagen2.bmp con exito, paso de 1363714 bytes a 232731 bytes, ahora se encuentra en comprimido3.txt
+
+Se ha escomprimido el archivo comprimido.txt con exito tomando en cuenta salida.txt
+
+Se ha escomprimido el archivo comprimido2.txt con exito tomando en cuenta salida2.txt
+
+Se ha escomprimido el archivo comprimido3.txt con exito tomando en cuenta salida3.txt

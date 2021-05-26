@@ -1,18 +1,18 @@
 #!/bin/bash
 gcc 'practica3.c' -o 'practica3'
 
-./practica3 texto.txt comprimido.txt salida.txt >registro.txt
-./practica3 cancion.mp3 comprimido2.txt salida2.txt >>registro.txt
-./practica3 imagen.bmp comprimido3.txt salida3.txt >>registro.txt
-./practica3 imagen2.jpg comprimido4.txt salida4.txt >>registro.txt
-#./practica3 pdf.pdf comprimido5.txt salida5.txt >>registro.txt
-./practica3 word.docx comprimido6.txt salida6.txt >>registro.txt
-./practica3 imagen3.png comprimido7.txt salida7.txt >>registro.txt
+./practica3 texto.txt texto_comp.txt caracteres1.txt >registro.txt
+./practica3 cancion.mp3 cancion_comp.txt caracteres2.txt >>registro.txt
+./practica3 imagen1.bmp imagen1_comp.txt caracteres3.txt >>registro.txt
+./practica3 imagen2.jpg imagen2_comp.txt caracteres4.txt >>registro.txt
+./practica3 pdf.pdf pdf_comp.txt caracteres5.txt >>registro.txt
+./practica3 word.docx word_comp.txt caracteres6.txt >>registro.txt
+./practica3 imagen3.png imagen3_comp.txt caracteres7.txt >>registro.txt
 
-./practica3 -1 salida.txt comprimido.txt texto_desc.txt >>registro.txt
-./practica3 -1 salida2.txt comprimido2.txt cancion_desc.mp3 >>registro.txt
-./practica3 -1 salida3.txt comprimido3.txt imagen_desc.bmp >>registro.txt
-./practica3 -1 salida4.txt comprimido4.txt imagen2_desc.jpg >>registro.txt
-#./practica3 -1 salida5.txt comprimido5.txt pdf_desc.pdf >>registro.txt
-./practica3 -1 salida6.txt comprimido6.txt word_desc.docx >>registro.txt
-./practica3 -1 salida7.txt comprimido7.txt imagen3_desc.png >>registro.txt
+./practica3 -1 caracteres1.txt texto_comp.txt texto_desc.txt >>registro.txt
+./practica3 -1 caracteres2.txt cancion_comp.txt cancion_desc.mp3 >>registro.txt
+./practica3 -1 caracteres3.txt imagen1_comp.txt imagen1_desc.bmp >>registro.txt
+./practica3 -1 caracteres4.txt imagen2_comp.txt imagen2_desc.jpg >>registro.txt
+./practica3 -1 caracteres5.txt pdf_comp.txt pdf_desc.pdf >>registro.txt
+./practica3 -1 caracteres6.txt word_comp.txt word_desc.docx >>registro.txt
+./practica3 -1 caracteres7.txt imagen3_comp.txt imagen3_desc.png >>registro.txt

@@ -1,30 +1,35 @@
 
 
-(0.004 s) Se ha comprimido texto.txt con exito, paso de 5721 bytes a 3186 bytes, ahora se encuentra en comprimido.txt (44.31). 
+(0.005 s) Se ha comprimido texto.txt con exito, paso de 5721 bytes a 3186 bytes (44.31), ahora se encuentra en texto_comp.txt
+
+(6.055 s) Se ha comprimido cancion.mp3 con exito, paso de 5012205 bytes a 4965424 bytes (0.93), ahora se encuentra en cancion_comp.txt
+
+(0.548 s) Se ha comprimido imagen1.bmp con exito, paso de 1363714 bytes a 232731 bytes (82.93), ahora se encuentra en imagen1_comp.txt
+
+(0.715 s) Se ha comprimido imagen2.jpg con exito, paso de 638393 bytes a 637589 bytes (0.13), ahora se encuentra en imagen2_comp.txt
+
+(76.624 s) Se ha comprimido pdf.pdf con exito, paso de 66666104 bytes a 65505404 bytes (1.74), ahora se encuentra en pdf_comp.txt
+
+(0.048 s) Se ha comprimido word.docx con exito, paso de 14009 bytes a 12838 bytes (8.36), ahora se encuentra en word_comp.txt
+
+(3.345 s) Se ha comprimido imagen3.png con exito, paso de 3036859 bytes a 3036254 bytes (0.02), ahora se encuentra en imagen3_comp.txt
+
+(0.003 s) Se ha descomprimido el archivo texto_comp.txt con exito, ahora es texto_desc.txt
 
 
-(5.651 s) Se ha comprimido cancion.mp3 con exito, paso de 5012205 bytes a 4965424 bytes, ahora se encuentra en comprimido2.txt (0.93). 
+(0.925 s) Se ha descomprimido el archivo cancion_comp.txt con exito, ahora es cancion_desc.mp3
 
 
-(0.522 s) Se ha comprimido imagen.bmp con exito, paso de 1363714 bytes a 232731 bytes, ahora se encuentra en comprimido3.txt (82.93). 
+(0.025 s) Se ha descomprimido el archivo imagen1_comp.txt con exito, ahora es imagen1_desc.bmp
 
 
-(0.688 s) Se ha comprimido imagen2.jpg con exito, paso de 638393 bytes a 637589 bytes, ahora se encuentra en comprimido4.txt (0.13). 
+(0.114 s) Se ha descomprimido el archivo imagen2_comp.txt con exito, ahora es imagen2_desc.jpg
 
 
-(0.036 s) Se ha comprimido word.docx con exito, paso de 14009 bytes a 12838 bytes, ahora se encuentra en comprimido6.txt (8.36). 
+(10.217 s) Se ha descomprimido el archivo pdf_comp.txt con exito, ahora es pdf_desc.pdf
 
 
-(0.002 s) Se ha escomprimido el archivo comprimido.txt con exito tomando en cuenta salida.txt
+(0.024 s) Se ha descomprimido el archivo word_comp.txt con exito, ahora es word_desc.docx
 
 
-(1.100 s) Se ha escomprimido el archivo comprimido2.txt con exito tomando en cuenta salida2.txt
-
-
-(0.033 s) Se ha escomprimido el archivo comprimido3.txt con exito tomando en cuenta salida3.txt
-
-
-(0.128 s) Se ha escomprimido el archivo comprimido4.txt con exito tomando en cuenta salida4.txt
-
-
-(0.023 s) Se ha escomprimido el archivo comprimido6.txt con exito tomando en cuenta salida6.txt
+(0.452 s) Se ha descomprimido el archivo imagen3_comp.txt con exito, ahora es imagen3_desc.png

@@ -88,7 +88,7 @@ int main(int argc, char** argv) {
 		ImprimirTiempos(usrtime11, systime11, walltime11,usrtime21, systime21, walltime21);;
 		
 		// Imprimimos información 
-		printf("Se ha escomprimido el archivo %s con exito tomando en cuenta %s\n",argv[3], argv[2]);
+		printf("Se ha descomprimido el archivo %s con exito, ahora es %s\n",argv[3], argv[4]);
 		
 	}
 
@@ -170,9 +170,9 @@ int main(int argc, char** argv) {
 		float resta = (leidosTotal - bytesTotal)*100;
 		float porciento = resta/leidosTotal;
 		if(resultadoEscritura >= 0)
-			printf("Se ha comprimido %s con exito, paso de %.0f bytes a %.0f bytes, ahora se encuentra en %s (%.2f). \n",argv[1],leidosTotal,bytesTotal, argv[2],porciento);
+			printf("Se ha comprimido %s con exito, paso de %.0f bytes a %.0f bytes (%.2f), ahora se encuentra en %s",argv[1],leidosTotal,bytesTotal,porciento, argv[2]);
 		else
-			printf("NO se ha comprimido %s con exito, paso de %.0f bytes a %.0f bytes, ahora se encuentra en %s\n",argv[1],leidosTotal,bytesTotal, argv[2]);
+			printf("NO se ha comprimido %s con exito, paso de %.0f bytes a %.0f bytes, ahora se encuentra en %s",argv[1],leidosTotal,bytesTotal, argv[2]);
 	}
 	
 	

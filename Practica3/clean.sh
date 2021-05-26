@@ -15,3 +15,9 @@ rm practica3
 rm comprimido5.txt
 rm salida5.txt
 rm pdf_desc.pdf
+rm salida6.txt
+rm comprimido6.txt
+rm word_desc.docx
+rm comprimido7.txt
+rm salida7.txt
+rm imagen3_desc.png

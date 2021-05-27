@@ -3,7 +3,6 @@
 #include "practica3.h"
 
 int main(int argc, char** argv) {
-	// Salida
 	char * salida;
 	char * codificado;
     int leidos;
@@ -11,21 +10,21 @@ int main(int argc, char** argv) {
 	float bytesTotal = 0;
 	int bitsEscritosReal = 0;
 	Frecuencia * v;
+
+	char opc1 = argv[1][0];
 	
 
-	if(argv[1][0] == '-' && argv[1][1] == '1') // Decompresión
+	if(opc1 == '1') // Decompresión
 	{
-		// Iniciamos la medición de tiempos
+		
 		uswtime(&usrtime11, &systime11, &walltime11);
 		
-		// Apertura de los flujos
-		tablaFrecuenciasArchivo = fopen(argv[2],"r"); // Abrimos la tabla de frecuencias
-		entrada = fopen(argv[3],"rb"); // Abrimos el archivo comprimido
-		out = fopen(argv[4],"wb"); // Abrimos un flujo de salida para guardar el nuevo archivo
+		//Abrimos archivos
+		tablaFrecuenciasArchivo = fopen(argv[2],"r");
+		entrada = fopen(argv[3],"rb");
+		out = fopen(argv[4],"wb"); 
 		
-		if(out == NULL) printf("Error\n");
-		if(tablaFrecuenciasArchivo == NULL) printf("Error\n");
-		if(entrada == NULL) printf("Error\n");
+		if(out == NULL || tablaFrecuenciasArchivo == NULL || entrada == NULL) printf("Error\n");
 		
 		// Variables auxiliares para la descompresión
 		long size;
@@ -42,11 +41,11 @@ int main(int argc, char** argv) {
 		rewind(entrada);
 		
 		// Leemos información importante sobre el archivo de salida
-		fscanf(tablaFrecuenciasArchivo,"N:%d",&numeroCaracteres); // El número de caracteres distintos en el archivo
+		fscanf(tablaFrecuenciasArchivo,"L:%d",&numeroCaracteres); // El número de caracteres distintos en el archivo
 		fscanf(tablaFrecuenciasArchivo,"%c",&basura); // Salto de línea
 		fscanf(tablaFrecuenciasArchivo,"P:%d",&padding); // El número de bits "basura"
 		fscanf(tablaFrecuenciasArchivo,"%c",&basura); // Salto de línea
-		fscanf(tablaFrecuenciasArchivo,"T:%d",&tamanoOriginal); // El tamaño original del archivo comprimido
+		fscanf(tablaFrecuenciasArchivo,"B:%d",&tamanoOriginal); // El tamaño original del archivo comprimido
 		
 		salida = (char *)malloc(sizeof(char)*tamanoOriginal);
 		codificado = (char *)malloc(sizeof(char)*size);
@@ -92,20 +91,19 @@ int main(int argc, char** argv) {
 		
 	}
 
-	else {
-		// Iniciamos la medición de tiempos
+	else if(opc1 == '0') {
 		uswtime(&usrtime11, &systime11, &walltime11);		
 		ListaFrecuencia f;
-		f.inicio = NULL;
-			
-		entrada = fopen(argv[1], "rb");		
-		uswtime(&usrtime11, &systime11, &walltime11);
+		f.inicio = NULL;		
+		
+		entrada = fopen(argv[2], "rb");				
 		
 		if (entrada == NULL) {
 			perror("No se puede abrir el fichero de entrada");
 			return -1;
 		}
-				
+		
+		uswtime(&usrtime11, &systime11, &walltime11);
 		// Este primer ciclo se encarga de la lectura para generar el árbol
 		do {
 			// Leemos el archivo hasta que ya no haya que leer
@@ -154,12 +152,12 @@ int main(int argc, char** argv) {
 			bytesTotal++;
 		
 		
-		out = fopen(argv[2],"w"); // Abrimos un flujo de salida para guardar el nuevo archivo
+		out = fopen(argv[3],"w"); // Abrimos un flujo de salida para guardar el nuevo archivo
 		fwrite(salida,sizeof(char),bytesTotal,out); // Escribimos el arreglo de chars, el cual fue modificado para contener la información
 		fclose(out); // Cerramos el flujo
 		
 		// Imprimimos la tabla de frecuencias a un archivo para conservarla
-		imprimeTablaFrecuencias(v,f.length, padding, leidosTotal ,argv[3]);
+		imprimeTablaFrecuencias(v,f.length, padding, leidosTotal ,argv[4]);
 		
 		// Concluimos la medición de tiempos
 		uswtime(&usrtime21, &systime21, &walltime21);
@@ -170,9 +168,9 @@ int main(int argc, char** argv) {
 		float resta = (leidosTotal - bytesTotal)*100;
 		float porciento = resta/leidosTotal;
 		if(resultadoEscritura >= 0)
-			printf("Se ha comprimido %s con exito, paso de %.0f bytes a %.0f bytes (%.2f), ahora se encuentra en %s",argv[1],leidosTotal,bytesTotal,porciento, argv[2]);
+			printf("Se ha comprimido %s con exito, paso de %.0f bytes a %.0f bytes (%.2f%), ahora se encuentra en %s",argv[2],leidosTotal,bytesTotal,porciento, argv[3]);
 		else
-			printf("NO se ha comprimido %s con exito, paso de %.0f bytes a %.0f bytes, ahora se encuentra en %s",argv[1],leidosTotal,bytesTotal, argv[2]);
+			printf("NO se ha comprimido %s con exito, paso de %.0f bytes a %.0f bytes, ahora se encuentra en %s",argv[2],leidosTotal,bytesTotal, argv[3]);
 	}
 	
 	
@@ -189,9 +187,9 @@ void imprimeTablaFrecuencias(Frecuencia * frecuencias, int length, int padding, 
     if (tablaFrecuenciasArchivo == NULL) {
         perror("No se puede abrir archivo");
     }
-	fprintf(tablaFrecuenciasArchivo,"N:%d\n", length);
+	fprintf(tablaFrecuenciasArchivo,"L:%d\n", length);
 	fprintf(tablaFrecuenciasArchivo,"P:%d\n", padding);
-	fprintf(tablaFrecuenciasArchivo,"T:%d\n", byteOrginal);
+	fprintf(tablaFrecuenciasArchivo,"B:%d\n", byteOrginal);
 	// Impresión de las frecuencias al archivo especificado
 	int i;
     for (i = 0; i < length; i++) {

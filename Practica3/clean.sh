@@ -21,3 +21,4 @@ rm imagen3_comp.txt
 rm pdf_comp.txt
 rm word_comp.txt
 rm practica3
+rm registro.txt

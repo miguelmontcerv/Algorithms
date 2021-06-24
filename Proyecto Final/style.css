@@ -1,0 +1,71 @@
+body{
+  background-color: #fff;
+  font-family:Quicksand,Arial;
+  }
+
+    h3,h2{
+    	text-align: center;
+    	font-family:Quicksand,Arial;
+    }
+    #leftPanel{
+  
+      display: inline-block;
+      vertical-align: top;
+      margin-left: -100px;
+      margin-right: auto;
+      height: 150px;
+    }
+    p{
+      text-align: justify;
+      font-family:Quicksand,Arial;
+      font-size: 20px;
+  
+    }
+
+    #canvas {
+        height: 400px;   
+        width: 500px;    
+        cursor: crosshair;
+        margin-top: -90px;
+        margin-left: 50px;
+    }
+
+    #body button {
+        font-size: 1.2em;
+        width: 120px;
+    }
+    #botones{
+    	text-align: center;
+    }
+    #p4,#p8,#p6,#p10{
+    	margin-left: 20px;
+    }
+    #p5,#p9{
+    	margin-left: 40px;	
+    }
+    #currentState{
+      font-size: large;
+    }
+    #list{
+      margin-left: -80px;
+      margin-top: -50px;
+    }
+     marquee{
+       width: 250px;
+       height: 100px;
+       margin-top: 20px;
+     }
+     #equipo{
+       width: 300px;
+       height: 200px;
+       float: right;
+       margin-left: 20px;
+    
+     }
+     #main{
+       height: 600px;
+       width: 600px;
+     }
+     li{
+       font-size: 20px;
+     }

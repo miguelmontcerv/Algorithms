@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Par de Puntos mas Cercanos</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #62a8ba;">
+
+        <a class="navbar-brand" href="#">Los Amsiosos</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="Index.html">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://youtu.be/0W_m46Q4qMc" target="blank">Video Explicativo</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <div class="container-fluid">
+        <div class="jumbotron" style="background-color: white; margin-top: -20px;">
+            <h1 class="display-4">Par De Puntos Más Cercanos.</h1>
+            <hr class="my-4">
+            <img src="img.png" id="equipo" alt="">
+            <p>En geometría computacional, el problema del par de puntos mas cercano es un problema
+                clásico donde ”Dados n
+                puntos en un espacio métrico, se pide encontrar un par de puntos con la distancia más pequeña entre
+                ellos”. El
+                problema del par de puntos más cercano en el plano euclidiano fue de los primeros problemas tratados en
+                el
+                estudio sistemático de la complejidad computacional de algoritmos geométricos.</p>
+            <p>
+                Como paso de procesamiento previo, el arreglo de entrada se ordena según las coordenadas x.
+            <ul>
+                <li>Encontrar el punto medio en el array ordenado, podemos tomar P[n/2] como punto medio.</li>
+                <li>Divida el array dado en dos mitades. El primer subarray contiene puntos de P[0] a P[n/2]. El segundo
+                    subarray contiene puntos de P[n/2+1] a P[n-1].</li>
+                <li>Encontrar recursivamente las distancias más peque˜nas en ambos subarrays. Dejando que las
+                    distancias
+                    sean dl y dr. Encontrar el mínimo de dl y dr. Dejando que el mínimo sea d.</li>
+                <li>A partir de los 3 escalones anteriores, tenemos un límite superior d de distancia m´ınima. Ahora
+                    tenemos
+                    que considerar los pares de tal manera que un punto en el par sea de la mitad izquierda y el otro
+                    sea
+                    de la mitad derecha. Considere la línea vertical que pasa por P[n/2] y encuentre todos los puntos
+                    cuya
+                    coordenada x está más cerca que d de la línea vertical media. Construya una franja de matriz[] de
+                    todos
+                    esos puntos.</li>
+                <li>
+                    5. Se ordena la franja de matriz[] según las coordenadas y este paso es O(nLogn). Se puede
+                    optimizar a
+                    O(n)
+                    ordenando y fusionando recursivamente.</li>
+                <li>Se encuentra la distancia más pequeña en la tira[]. Esto es complicado. Desde el primer vistazo,
+                    parece ser
+                    un paso O(n
+                    2
+                    ), pero en realidad es O(n). Se puede probar geométricamente que para cada punto de la
+                    tira, solo necesitamos comprobar como máximo 7 puntos después de ella (tenga en cuenta que la tira
+                    está
+                    ordenada de acuerdo con la coordenada Y).</li>
+                <li>Finalmente devuelva el mínimo de d y la distancia calculada en el paso anterior.</li>
+            </ul>
+            </p>
+
+
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6"">
+                <div class=" container-fluid id="main">
+                <div id="canvas">
+                    <div class="container-fluid" id="botones">
+                        <button id="runbtn" class="btn btn-success mt-3" type="button">Iniciar</button>
+                        <button id="clearbtn" class="btn btn-warning mt-3" type="button">Reiniciar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3" id="list">
+            <ul id="group">
+            </ul>
+        </div>
+    </div>
+
+    </div>
+    <!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2021 :
+       Equipo Ansioso | Analisis de Algoritmos
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js"
+        integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.js"></script>
+    <script src="main.js"></script>
+    <script type module src="points.js"></script>
+</body>
+
+</html>
